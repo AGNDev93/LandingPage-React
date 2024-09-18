@@ -19,41 +19,47 @@ const Home = () => {
 				text5="Contact"
 			/>
 			<div className="container">
-				<CardBody
-					title="A Warm Welcome"
-					description="Aprender a programar será tan importante como saber un segundo o tercer idioma. Al final, este también es un idioma, o más bien un lenguaje, en el que está estructurado todo el mundo digital, que es el que rige nuestra economía, negocios e interacciones sociales."
-					buttonLabel="Call to action!"
-				/>
 				<div className="row">
-					<div className="col-3">
+					<div className="col-sm-12 text-justify">
+						<CardBody
+							title="A Warm Welcome!"
+							description="Aprender a programar será tan importante como saber un segundo o tercer idioma. Al final, este también es un idioma, o más bien un lenguaje, en el que está estructurado todo el mundo digital, que es el que rige nuestra economía, negocios e interacciones sociales."
+							buttonLabel="Call to action!"
+						/>
+					</div>
+				</div>
+			</div>
+			<div className="container">
+				<div className="row">
+					<div className="col-sm-3 text-justify">
 						<Cards
 							imageURL="https://picsum.photos/id/1/500/325"
-							tittle="Card Title1"
-							description="Sin duda uno de los perfiles laborales más importantes en el mundo tecnológico, es el de los programadores. La programación es una habilidad relevante para cualquier profesional de hoy en día y es una ventaja competitiva para liderar los nuevos retos que presenta el mundo."
+							title="Programador"
+							description="La programación es una habilidad relevante para cualquier profesional de hoy en día y es una ventaja competitiva para liderar los nuevos retos que presenta el mundo."
 							buttonLabel="Find Out More!"
 						/>
 					</div>
-					<div className="col-3">
+					<div className="col-sm-3 text-justify">
 						<Cards
-							imageURL="https://picsum.photos/500/325"
-							tittle="Card Title2"
-							description="Sin duda uno de los perfiles laborales más importantes en el mundo tecnológico, es el de los programadores. La programación es una habilidad relevante para cualquier profesional de hoy en día y es una ventaja competitiva para liderar los nuevos retos que presenta el mundo."
+							imageURL="https://picsum.photos/id/20/500/325"
+							title="React"
+							description="React permite la creación de componentes reutilizables, lo cual facilita enormemente el desarrollo y el mantenimiento de las páginas y aplicaciones web."
 							buttonLabel="Find Out More!"
 						/>
 					</div>
-					<div className="col-3">
+					<div className="col-sm-3 text-justify">
 						<Cards
 							imageURL="https://picsum.photos/500/325"
-							tittle="Card Title3"
-							description="Sin duda uno de los perfiles laborales más importantes en el mundo tecnológico, es el de los programadores. La programación es una habilidad relevante para cualquier profesional de hoy en día y es una ventaja competitiva para liderar los nuevos retos que presenta el mundo."
+							title="Beneficios Dev"
+							description="Una de las ventajas de aprender a programar es que te da otro punto de vista de los problemas, ayuda a pensar de forma más lógica y encontrar las soluciones."
 							buttonLabel="Find Out More!"
 						/>
 					</div>
-					<div className="col">
+					<div className="col-sm-3 text-justify">
 						<Cards
-							imageURL="https://picsum.photos/500/325"
-							tittle="Card Title4"
-							description="Sin duda uno de los perfiles laborales más importantes en el mundo tecnológico, es el de los programadores. La programación es una habilidad relevante para cualquier profesional de hoy en día y es una ventaja competitiva para liderar los nuevos retos que presenta el mundo."
+							imageURL="https://picsum.photos/seed/picsum/500/325"
+							title="¿Es un lenguaje?"
+							description="La programación se trata de un lenguaje que se divide en otros dependiendo de para qué se esté aplicando. Es un lenguaje internacional."
 							buttonLabel="Find Out More!"
 						/>
 					</div>
@@ -62,5 +68,4 @@ const Home = () => {
 		</div>
 	);
 }
-
 export default Home;
