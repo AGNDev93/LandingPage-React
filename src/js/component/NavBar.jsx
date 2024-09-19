@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 const NavBar = ({ text1, text2, text3, text4, text5 }) => {
     return (
         <nav className="navbar navbar-expand-lg bg-dark">
-            <div className="container-fluid">
+            <div className="container">
                 <a className="navbar-brand text-white" href="#">{text1}</a>
                 <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span className="navbar-toggler-icon navbar-dark"></span>
